@@ -13,10 +13,10 @@ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
 
 ### link jar library to vscode project
 https://www.youtube.com/watch?v=3Qm54znQX2E
-
+```
 Jar path - opencv-4.5.3/build/bin/opencv-453.jar
 DLL path - opencv-4.5.3/build/lib.libopencv_java453.so
-
+```
 ### test code:
 
 ```
