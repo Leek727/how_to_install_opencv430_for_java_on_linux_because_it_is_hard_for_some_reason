@@ -30,7 +30,7 @@ public class App {
 }
 ```
 
-### if Exception in thread "main" java.lang.UnsatisfiedLinkError: no opencv_java453.so in java.library.path: [/usr/java/packages/lib, ...
+### if Exception in thread "main" java.lang.UnsatisfiedLinkError: no opencv_java453.so in java.library.path: ...
 ```
 sudo cp opencv-453.jar /lib
 sudo cp libopencv_java453.so /lib
