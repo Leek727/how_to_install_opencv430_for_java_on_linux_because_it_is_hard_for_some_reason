@@ -6,8 +6,10 @@ Documents my one day of figuring out how to compile and run opencv on ubuntu
 https://www.360learntocode.com/2020/05/install-opencv-in-linuxubuntu-for-java.html
 
 ### if cmake java tests aren't successful - paths might be different
+```
 export ANT_HOME=/usr/share/ant
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/
+```
 
 ### link jar library to vscode project
 https://www.youtube.com/watch?v=3Qm54znQX2E
@@ -29,5 +31,7 @@ public class App {
 ```
 
 ### if Exception in thread "main" java.lang.UnsatisfiedLinkError: no opencv_java453.so in java.library.path: [/usr/java/packages/lib, ...
+```
 sudo cp opencv-453.jar /lib
 sudo cp libopencv_java453.so /lib
+```
