@@ -14,6 +14,7 @@ https://www.youtube.com/watch?v=3Qm54znQX2E
 
 ### test code:
 
+```
 import org.opencv.core.Core;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
@@ -25,6 +26,7 @@ public class App {
         System.out.println("mat = " + mat.dump()); 
     }
 }
+```
 
 ### if Exception in thread "main" java.lang.UnsatisfiedLinkError: no opencv_java453.so in java.library.path: [/usr/java/packages/lib, ...
 sudo cp opencv-453.jar /lib
